@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="refresh" content="3">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCI</title>
+    <link rel="stylesheet" href="blog.css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/017b4a85c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subheader">
+       <nav>
+        <a href="index.html"><img src="pics/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">COURSE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Our Certificate & Online Programs For 2022</h1>
+          
+       
+    </section>
+
+<!--post-->
+<section class="blog-container">
+    <div class="blogpost">
+        <div class="post">
+            <img src="pics/database.png" alt="">
+            <h3>information about database analytics</h3>
+          <p>In-database analytics is a model of analysis where the processing of data is performed within a database. By processing the data within a database, it allows for the elimination of the overhead of moving large data sets to analytic applications. In this model of analysis, the analytic logic is built into a database instead of in a separate application. 
+
+            In-database analytics allows for the analytic capabilities to be embedded in a relational or columnar database. 
+            
+            Advantages of in-database analytics include:
+            
+             Parallel Processing
+             Analytic Optimization
+            Streamlining of  the identification of issues related to the exchange of data and information
+            Providing ad-hoc analysis reporting
+            In Data Defined, we help make the complex world of data more accessible by explaining some of the most complex aspects
+        of the field</p><br>
+        <p>Enterprise data analysis can be performed in many different ways. It is not a single set of defined processes that work for every data set or every type of business question.
+
+            In-database analytics is one way to analyze data where the processing of data is performed within a database. It has multiple benefits over traditional analytics techniques, where databases and their processing are separated.
+        </p><br>
+        <p>Traditionally, BI data analysis is achieved by moving data out of a database or data warehouse and into a BI product before you can perform the operations to answer your complex business questions.
+
+            When databases and data warehouses were small enough that the time taken to extract the data as an initial step was minimal and not a huge burden for BI tools.
+        </p><br>
+        <p>In 2003, an Encyclopedia of Information Systems article noted: “For large organizations, several gigabytes of data may be recorded in the enterprise database within a week or even a day.”
+
+        </p>
+            <a href="artificial.html">Read Next ?</a>
+        
+        </div>
+    </div>
+   
+
+</section>
+
+
+
+
+
+
+<!-- footer  -->
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="pics/logo.png" class="logo">
+            <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.
+                We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.
+            </p>
+        </div>
+        <div class="col">
+            <h3>office <div class="underline"><span></span></div></h3>
+            <p>sadat city</p>
+            <p>Shebin EL-kom</p>
+            <p>nasr city</p>
+            <p class="email-id">dinaiprahem7@gmail.com</p>
+            <h4>01022152959</h4>
+        </div>
+        <div class="col">
+            <h3>links<div class="underline"><span></span></h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter<div class="underline"><span></span></h3>
+            <form class="our-form">
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                <input type="email" placeholder="enter your email id" required>
+                <button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+                
+            </form>
+            <div class="social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+               <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="hr">
+    <p class="copy"> Eduford<i class="fa fa-copyright" aria-hidden="true"> 2022 - all rights reserved</i>
+    </p>
+   </footer>
+
+   
+<!--for show and hide icons on phone screen-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hidenMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

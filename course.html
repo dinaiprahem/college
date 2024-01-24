@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCI</title>
+    <link rel="stylesheet" href="course.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/017b4a85c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+       <nav>
+        <a href="index.html"><img src="pics/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       
+        
+       <h1> Our Courses </h1>
+
+    </section>
+
+
+<!-- <-------course--------> 
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We provide our students with courses which can help them in their field.</p>
+    <div class="row">
+        <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut ad eveniet voluptatum distinctio fuga. Perferendis voluptate sit quidem voluptates, officiis dolorum.</p>
+        </div>
+    
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores rem expedita id necessitatibus nemo excepturi tenetur doloribus sequi voluptatem? Molestiae neque iste quisquam.</p>
+            </div>
+    
+         <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsum accusamus assumenda ab rem doloremque illum, repellat delectus ex, laudantium magni cumque accusantium.</p>
+                </div>
+    </div>
+    </section>
+<!-- <---------facilites------->    
+    
+<section class="facilities">
+    <div class="words">
+    <h1>Our Facilities</h1>
+    <p>Our facilities help students to communicate with eachother, studing, and enjoy their free time </p>
+</div>
+    <div class="slider">
+        <span style="--i:1;"><img src="pics/football.jpeg" alt="1"></span>
+        <span style="--i:2;"><img src="pics/basketball.png" alt="2"></span>
+        <span style="--i:3;"><img src="pics/judo.jpeg" alt="3"></span>
+        <span style="--i:4;"><img src="pics/library.png" alt="4"></span>
+        <span style="--i:5;"><img src="pics/music.jpeg" alt="5"></span>
+        <span style="--i:6;"><img src="pics/tennis.jpeg" alt="6"></span>
+        <span style="--i:7;"><img src="pics/theatre.webp" alt="7"></span>
+        <span style="--i:8;"><img src="pics/cafeteria.png" alt="8"></span>
+
+    </div>
+
+   </div>
+</section>
+
+
+<!-- footer  -->
+
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="pics/logo.png" class="logo">
+            <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.
+                We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.
+            </p>
+        </div>
+        <div class="col">
+            <h3>office <div class="underline"><span></span></div></h3>
+            <p>sadat city</p>
+            <p>Shebin EL-kom</p>
+            <p>nasr city</p>
+            <p class="email-id">dinaiprahem7@gmail.com</p>
+            <h4>01022152959</h4>
+        </div>
+        <div class="col">
+            <h3>links<div class="underline"><span></span></h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter<div class="underline"><span></span></h3>
+            <form class="our-form">
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                <input type="email" placeholder="enter your email id" required>
+                <button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+                
+            </form>
+            <div class="social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copy"> Eduford<i class="fa fa-copyright" aria-hidden="true"> 2022 - all rights reserved</i>
+    </p>
+   </footer>
+
+   
+<!--for show and hide icons on phone screen-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hidenMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
